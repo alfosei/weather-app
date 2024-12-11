@@ -1,6 +1,4 @@
-Here's the complete `README.md` file that you can copy all at once:
 
-```markdown
 # Weather App
 
 ## 📍 Overview
