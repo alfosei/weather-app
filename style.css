@@ -1,10 +1,104 @@
-body {
-    font-family: Arial, sans-serif;
+/* General Styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Retro feel */
+    background-color: #f2e5d7; /* Light terracotta background */
+    color: #4a3f35; /* Deep brown for text */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #d78a76; /* Terracotta shade */
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Main Section */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Search Bar */
+.search {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #d78a76;
+    border-right: none;
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+    color: #4a3f35;
+}
+
+.search button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #d78a76;
+    color: #fff;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.search button:hover {
+    background-color: #c37561; /* Darker terracotta */
+}
+
+/* Weather Info */
+.weather-info {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #d78a76;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+    font-size: 28px;
+    color: #4a3f35;
+    margin-bottom: 10px;
+}
+
+.weather-info p {
+    font-size: 18px;
+    color: #6a5a4d; /* Muted brown */
+}
+
+/* Footer */
+footer {
+    background-color: #d78a76;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
 }

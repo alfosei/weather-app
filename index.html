@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, Weather App!</h1>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <div class="search">
+            <input type="text" id="city-input" placeholder="Enter city name" />
+            <button id="search-button">Search</button>
+        </div>
+
+        <div>
+            <h2 id="city-name">City Name</h2>
+            <p id="temperature">temperature: -- °C</p>
+            <p id="condition">Condition: --</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Weather App | BALFAZAAR</p>
+    </footer>
+    
     <script src="app.js"></script>
 </body>
 </html>
